@@ -16,3 +16,16 @@ Print the result in 2 decimal places.
 **Sample Output:**
 83.75
 */
+const english = 85;
+const history = 85.54;
+const geography = 86.5;
+const computerScience = 89;
+const economics = 96;
+const totalMarks = english + history + geography + computerScience + economics;
+const totalSub = 5;
+const averageMarks = totalMarks / totalSub;
+console.log(averageMarks);
+const averageMarksToFixed = averageMarks.toFixed(2);
+console.log(averageMarksToFixed);
+const averageMarksToFixedToInt = parseFloat(averageMarksToFixed);
+console.log(averageMarksToFixedToInt); 
