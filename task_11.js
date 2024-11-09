@@ -16,3 +16,19 @@ Print the remainder.
 **Sample Output:**
 4
 */
+
+const num1 = 501;
+const remainder1 = num1 % 5;
+console.log(remainder1);
+const num2 = 502;
+const remainder2 = num2 % 5;
+console.log(remainder2);
+const num3 = 503;
+const remainder3 = num3 % 5;
+console.log(remainder3);
+const num4 = 504;
+const remainder4 = num4 % 5;
+console.log(remainder4);
+const num5 = 505;
+const remainder5 = num5 % 5;
+console.log(remainder5);
