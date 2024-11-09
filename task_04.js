@@ -19,3 +19,10 @@ Print the remaining money after the purchase.
 **Sample Output:**
 300
 */
+
+const money = 2100;
+const bookPrice = 600;
+const bagPrice = 700;
+const totalCost = bookPrice + bagPrice;
+const remainingMoney = money - totalCost;
+console.log(remainingMoney);

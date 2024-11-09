@@ -19,3 +19,10 @@ Print the change you will receive.
 **Sample Output:**
 150
 */
+
+const money = 400;
+const coffee = 150;
+const sandwich = 120;
+const totalBill = coffee + sandwich;
+const remainingMoney = money - totalBill;
+console.log(remainingMoney);
