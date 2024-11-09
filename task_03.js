@@ -20,3 +20,9 @@ Print the money left after buying the items.
 500
 */
 
+const money = 1900;
+const shoesCost = 1200;
+const socksCost = 300;
+const totalCost = shoesCost + socksCost;
+const remainMoney = money - totalCost;
+console.log("I have ", remainMoney, "Taka")

@@ -19,3 +19,11 @@ Print the remaining amount.
 **Sample Output:**
 150
 */
+
+const money = 600;
+const notebooksPrice = 350;
+const penPrice = 50;
+const totalConst = notebooksPrice + penPrice;
+const remainingMoney = money - totalConst;
+
+console.log("Money remaining:", remainingMoney);
